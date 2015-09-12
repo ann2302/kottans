@@ -16,3 +16,9 @@ D:\Files\MyParser\for-kottans\MyParser\obj\Debug\MyParser.pdb
 D:\Files\MyParser\for-kottans\MyParser\bin\Debug\MyParser.exe
 D:\Files\MyParser\for-kottans\MyParser\bin\Debug\MyParser.pdb
 D:\Files\MyParser\for-kottans\MyParser\obj\Debug\MyParser.csprojResolveAssemblyReference.cache
+C:\Users\rotes\Documents\GitHub\kottans\bin\Debug\MyParser.exe.config
+C:\Users\rotes\Documents\GitHub\kottans\obj\Debug\MyParser.exe
+C:\Users\rotes\Documents\GitHub\kottans\obj\Debug\MyParser.pdb
+C:\Users\rotes\Documents\GitHub\kottans\bin\Debug\MyParser.exe
+C:\Users\rotes\Documents\GitHub\kottans\bin\Debug\MyParser.pdb
+C:\Users\rotes\Documents\GitHub\kottans\obj\Debug\MyParser.csprojResolveAssemblyReference.cache

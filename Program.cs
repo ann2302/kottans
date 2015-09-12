@@ -15,7 +15,7 @@ namespace MyParser
             List<string> text;
             for (; ; )
             {
-                Console.Write("MyPerser.exe ");
+                Console.Write("MyParser.exe ");
                 IntroductoryString = Console.ReadLine();
                 text = parser.parsing(IntroductoryString);
                 text = parser.helpcheking(text);
@@ -29,7 +29,7 @@ namespace MyParser
                         case "/ping":
                         case "-ping": text = parser.ping(text); break;
                         case "/print":
-                        case "-print": text = parser.massege(text); break;
+                        case "-print": text = parser.message(text); break;
                         case "/exit":
                         case "-exit": parser.exit();break;
                         default: text = parser.error(text); break;
@@ -92,10 +92,10 @@ namespace MyParser
        public void help()
         {
             Console.WriteLine(@"-help, /h, -h, -?, /help, /? - this commands display help information.
-    Use this command without any paramethers.
-If you enter empty line, programm will the display help information too.
+    Use this command without paramethers.
+If you enter empty line, programm will display help information too.
 - ping, /ping - this command beeps. 
-    Use this command without any paramethers.
+    Use this command without paramethers.
 - print <message>, /print <message > -this command print any messages, that you want to see.
     Example: -print I write my first message
 - k <key value - value> or /k <key value - value> This command print keys and their values.
@@ -141,7 +141,7 @@ If you enter empty line, programm will the display help information too.
             return text;
         }
 
-       public List<string> massege(List<string> text)
+       public List<string> message(List<string> text)
        {
            text.RemoveAt(0);
            while(text.Count!=0)
